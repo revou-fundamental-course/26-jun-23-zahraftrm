@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Groceries</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <section id="headerNavigation">
+        <a href="index.html"
+          ><img class="logo" src="img/vegetable-logo-png-7.png"
+        /></a>
+        <nav class="navigation">
+          <button>Home</button>
+          <button>Our Package</button>
+          <button>Call Us</button>
+        </nav>
+      </section>
+      <section id="headerTitle">
+        <!--put title in here-->
+        <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+        <p id="subtitle">Every Day with best ingredients</p>
+      </section>
+    </header>
+    <main>
+      <section id="customer">
+        <article id="article">
+          <div>
+            <img class="img-slideshow" src="img/pic1.jpg" />
+            <img class="img-slideshow" src="img/pic2.jpg" />
+            <img class="img-slideshow" src="img/pic3.jpg" />
+            <a class="prev" onclick="plusDivs(-1)"></a>
+            <a class="next" onclick="plusDivs(1)"></a>
+          </div>
+          <h4><i>"setiap hari beli sayur buah yang fresh disini"</i></h4>
+
+          <div class="review">
+            <img class="customPic" src="img/customer.png" />
+            <h3>
+              Florence Hughes <br />
+              <i>Ibu Rumah Tangga, 28</i>
+            </h3>
+          </div>
+        </article>
+        <section id="callUs">
+          <h3 class="titleSub">Contact Us</h3>
+          <p class="titleCon">
+            Sales akan menghubungi anda 1x24 jam setelah data kami terima.
+          </p>
+          <form name="message-form" onsubmit="return validateForm()">
+            <label>Your Name: </label><br />
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="first and last name" />
+            <label>Email Address: </label><br />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="example@email.com" />
+            <label>Phone Number: </label><br />
+            <input
+              id="phone"
+              name="phone"
+              type="text"
+              placeholder="your phone number" />
+            <label>Messages: </label><br />
+            <input
+              id="messages"
+              name="messages"
+              type="text"
+              placeholder="messages" />
+            <label>What are you interested in?</label>
+            <select name="option">
+              <option>Select option</option>
+              <option>Vegetables</option>
+              <option>Fruits</option>
+            </select>
+            <button type="submit" value="submit">SEND</button>
+          </form>
+        </section>
+      </section>
+      <section class="keunggulan">
+        <h3>Mengapa harus berbelanja sayuran dan buah di E-Groceries?</h3>
+        <div class="reason">
+          <div class="one">
+            <span class="circle">1</span>
+            <p>Kualitas sayuran dan buah yang terjamin</p>
+            <br />
+          </div>
+          <div class="two">
+            <span class="circle">2</span>
+            <p>Belanja kebutuhan online sesuai keinginanmu</p>
+            <br />
+          </div>
+          <div class="three">
+            <span class="circle">3</span>
+            <p>Pembayaran non-tunai yang aman</p>
+            <br />
+          </div>
+        </div>
+      </section>
+      <section class="package">
+        <h3>Our Package</h3>
+      </section>
+      <section>
+        <div class="ourpack">
+          <img class="customPic" src="img/lamp.png" />
+          <p>
+            <b>Fresh Vegetable </b><br /><br />
+            Sayuran segar langsung dari sumber pertanian terbaik
+          </p>
+          <img class="customPic" src="img/lamp.png" />
+          <p>
+            <b>Fresh Fruit</b><br /><br />
+            Buah dengan kualitas terbaik dari local atau import dan harga yang
+            menarik
+          </p>
+          <img class="customPic" src="img/lamp.png" />
+          <p>
+            <b>Instant Delivery</b><br /><br />
+            Di kirim instan oleh kurir yang telah di training dengan SOP untuk
+            menjaga kondisi belanja kamu
+          </p>
+        </div>
+        <div class="ourpack2">
+          <img class="customPic" src="img/star.png" />
+          <p>
+            <b>Kitchen ingredients </b><br /><br />
+            Bumbu dapur lengkap untuk keperluan memasak kamu
+          </p>
+          <img class="customPic" src="img/star.png" />
+          <p>
+            <b>Kitchen Set</b><br /><br />
+            Segala jenis alat masak untuk membantu kamu memasak
+          </p>
+          <img class="customPic" src="img/star.png" />
+          <p>
+            <b>Bunding Set</b><br /><br />
+            Bingung masak apa? sudah tersedia paket untuk kamu masak di dapurmu
+          </p>
+        </div>
+      </section>
+      <hr />
+      <section class="callAction">
+        <h4>Setiap Pembelian Pertama Customer!</h4>
+        <h2>Up to <span>70% off</span> - All Vegetable and Fruit</h2>
+        <button class="normal">CALL TO ACTION</button>
+      </section>
+      <hr />
+    </main>
+    <footer>
+      <h3><i>zahra fitria</i></h3>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

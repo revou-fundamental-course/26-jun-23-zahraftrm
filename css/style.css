@@ -1,0 +1,318 @@
+#headerNavigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid gray;
+  padding: 8px 16px;
+  background-color: whitesmoke;
+}
+
+.logo {
+  height: 70px;
+  width: 70px;
+}
+.navigation {
+  display: flex;
+}
+
+.navigation > button {
+  background-color: white;
+  padding: 8px 16px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: 0.3s background-color ease-out;
+}
+
+.navigation > button:hover {
+  background-color: #a1d6aa;
+}
+.navigation > button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.navigation > button:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+#headerTitle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  color: #3b4754;
+}
+
+#subtitle {
+  font-family: "Times New Roman", Times, serif;
+  color: gray;
+  font-size: 25px;
+  margin-top: -2%;
+}
+
+main {
+  padding: 24px;
+}
+
+/* MARK: Call Us Section  */
+#customer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+#article {
+  flex-basis: 60%;
+  flex-grow: 0;
+  margin-left: 32px;
+}
+#article img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+#article > h4 {
+  color: #3b4754;
+  text-align: center;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.review > h3 > i {
+  color: #84898e;
+  font-size: 15px;
+}
+.review > h3 {
+  margin-left: 10px;
+}
+.customPic {
+  height: 60px;
+  width: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#callUs {
+  flex-basis: 30%;
+  flex-grow: 0;
+  background-color: #edf0f4;
+  margin-right: 32px;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+
+.titleSub {
+  margin: 30px 30px;
+  color: #3b4754;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.titleCon {
+  margin-left: 30px;
+  color: #84898e;
+  font-family: "Times New Roman", Times, serif;
+  margin-right: 30px;
+}
+
+#callUs > form {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 40px;
+}
+
+#callUs > form > label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #3b4754;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+#callUs > form > input {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #84898e;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+#callUs > form > select {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #84898e;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: #84898e;
+}
+
+#callUs > form > button {
+  margin-top: 10px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #84898e;
+  font-size: 17px;
+  transition: all 0.3s ease;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #3b4754;
+  color: #edf0f4;
+}
+
+.keunggulan {
+  margin-left: 30px;
+}
+
+.keunggulan > h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #3b4754;
+}
+
+.circle {
+  margin: 20px;
+  background: #edf0f4;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  display: inline-block;
+  color: #3b4754;
+  font-weight: bold;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.package {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #edf0f4;
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.package h3 {
+  color: #3b4754;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.ourpack {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.ourpack2 {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+hr {
+  color: #edf0f4;
+}
+.callAction {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.callAction h4 {
+  color: #3b4754;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.callAction h2 {
+  color: #84898e;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.callAction h2 span {
+  color: #08b725;
+}
+
+.callAction button.normal {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #edf0f4;
+  background-color: #3b4754;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+.callAction button:hover {
+  background-color: #08b725;
+  color: antiquewhite;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+  align-items: center;
+}
+
+.one {
+  display: flex;
+}
+
+.two {
+  display: flex;
+}
+
+.three {
+  display: flex;
+}
+
+.reason p {
+  margin-top: 26px;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #3b4754;
+}
+
+@media only screen and (max-width: 600px) {
+  #headerNavigation {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin-bottom: 14px;
+  }
+
+  #headerTitle {
+    text-align: center;
+    align-items: center;
+  }
+
+  #customer {
+    flex-direction: column;
+  }
+}
