@@ -7,10 +7,6 @@
   background-color: whitesmoke;
 }
 
-.logo {
-  height: 70px;
-  width: 70px;
-}
 .navigation {
   display: flex;
 }
@@ -24,7 +20,7 @@
 }
 
 .navigation > button:hover {
-  background-color: #a1d6aa;
+  background-color: #d6b6a1;
 }
 .navigation > button:first-child {
   border-radius: 4px 0 0 4px;
@@ -53,8 +49,7 @@ main {
   padding: 24px;
 }
 
-/* MARK: Call Us Section  */
-#customer {
+#pelanggan {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -65,34 +60,21 @@ main {
   flex-grow: 0;
   margin-left: 32px;
 }
-#article img {
-  max-width: 100%;
-  max-height: 100%;
-  border-radius: 8px;
-}
 
 #article > h4 {
   color: #3b4754;
   text-align: center;
 }
 
-.review {
+.ulasan {
   display: flex;
   align-items: center;
   margin-left: 30px;
   margin-top: 30px;
 }
-.review > h3 > i {
+.ulasan > h3 > i {
   color: #84898e;
   font-size: 15px;
-}
-.review > h3 {
-  margin-left: 10px;
-}
-.customPic {
-  height: 60px;
-  width: 60px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #callUs {
@@ -174,27 +156,13 @@ main {
   color: #edf0f4;
 }
 
-.keunggulan {
+.value {
   margin-left: 30px;
 }
 
-.keunggulan > h3 {
+.value > h3 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #3b4754;
-}
-
-.circle {
-  margin: 20px;
-  background: #edf0f4;
-  border-radius: 50%;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  display: inline-block;
-  color: #3b4754;
-  font-weight: bold;
-  width: 40px;
-  line-height: 40px;
-  text-align: center;
 }
 
 .package {
@@ -216,14 +184,14 @@ main {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.ourpack {
+.pack {
   display: flex;
   align-items: center;
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.ourpack2 {
+.packs {
   display: flex;
   align-items: center;
   margin-left: 30px;
@@ -234,28 +202,19 @@ main {
 hr {
   color: #edf0f4;
 }
-.callAction {
+.callAction h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.callAction h4 {
   color: #3b4754;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 30px;
 }
 
-.callAction h2 {
-  color: #84898e;
-  font-size: 30px;
-  padding: 10px 0;
-}
-
-.callAction h2 span {
-  color: #08b725;
-}
-
 .callAction button.normal {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   font-size: 14px;
   font-weight: 600;
   padding: 15px 30px;
@@ -269,7 +228,9 @@ hr {
 }
 
 .callAction button:hover {
-  background-color: #08b725;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   color: antiquewhite;
   margin-bottom: 40px;
 }
@@ -302,17 +263,11 @@ footer {
   #headerNavigation {
     flex-direction: column;
   }
-
-  .logo {
-    margin-bottom: 14px;
-  }
-
   #headerTitle {
     text-align: center;
     align-items: center;
   }
-
-  #customer {
+  #pelanggan {
     flex-direction: column;
   }
 }
